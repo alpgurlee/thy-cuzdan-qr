@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct thy_cuzdan_qrApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+    let persistenceController = PersistenceController.shared
+
+        var body: some Scene {
+            WindowGroup {
+                MainView()
+                    .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            }
         }
     }
-}

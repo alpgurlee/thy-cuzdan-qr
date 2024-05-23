@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		FA371B352BFE656700A56754 /* thy_cuzdan_qrApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B342BFE656700A56754 /* thy_cuzdan_qrApp.swift */; };
 		FA371B372BFE656700A56754 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B362BFE656700A56754 /* ContentView.swift */; };
-		FA371B392BFE656800A56754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA371B382BFE656800A56754 /* Assets.xcassets */; };
-		FA371B3C2BFE656800A56754 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA371B3B2BFE656800A56754 /* Preview Assets.xcassets */; };
 		FA371B462BFE656900A56754 /* thy_cuzdan_qrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B452BFE656900A56754 /* thy_cuzdan_qrTests.swift */; };
 		FA371B502BFE656900A56754 /* thy_cuzdan_qrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B4F2BFE656900A56754 /* thy_cuzdan_qrUITests.swift */; };
 		FA371B522BFE656900A56754 /* thy_cuzdan_qrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B512BFE656900A56754 /* thy_cuzdan_qrUITestsLaunchTests.swift */; };
+		FA371B602BFE65BA00A56754 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA371B5E2BFE65B900A56754 /* Model.xcdatamodeld */; };
+		FA371B622BFE690E00A56754 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B612BFE690E00A56754 /* Persistence.swift */; };
+		FA371B6A2BFE707B00A56754 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B692BFE707B00A56754 /* SignUpView.swift */; };
+		FA371B6C2BFE70B000A56754 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B6B2BFE70B000A56754 /* LoginView.swift */; };
+		FA371B6E2BFE70D600A56754 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B6D2BFE70D600A56754 /* MainView.swift */; };
+		FA371B722BFE744400A56754 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B712BFE744400A56754 /* WalletView.swift */; };
+		FA371B742BFE756F00A56754 /* PasswordResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B732BFE756F00A56754 /* PasswordResetView.swift */; };
+		FA371B762BFE76BE00A56754 /* TransactionHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B752BFE76BE00A56754 /* TransactionHistoryView.swift */; };
+		FA371B7A2BFE7C3600A56754 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B792BFE7C3600A56754 /* MenuView.swift */; };
+		FA371B7C2BFE7EE800A56754 /* PaymentOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B7B2BFE7EE800A56754 /* PaymentOptionsView.swift */; };
+		FA371B7E2BFE8C6700A56754 /* QRCodeView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B7D2BFE8C6700A56754 /* QRCodeView.swift .swift */; };
+		FA371B802BFE8CAC00A56754 /* OfflinePaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA371B7F2BFE8CAC00A56754 /* OfflinePaymentView.swift */; };
+		FA371B812BFE999900A56754 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA371B382BFE656800A56754 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +49,23 @@
 		FA371B342BFE656700A56754 /* thy_cuzdan_qrApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thy_cuzdan_qrApp.swift; sourceTree = "<group>"; };
 		FA371B362BFE656700A56754 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA371B382BFE656800A56754 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FA371B3B2BFE656800A56754 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA371B412BFE656900A56754 /* thy-cuzdan-qrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "thy-cuzdan-qrTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA371B452BFE656900A56754 /* thy_cuzdan_qrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thy_cuzdan_qrTests.swift; sourceTree = "<group>"; };
 		FA371B4B2BFE656900A56754 /* thy-cuzdan-qrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "thy-cuzdan-qrUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA371B4F2BFE656900A56754 /* thy_cuzdan_qrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thy_cuzdan_qrUITests.swift; sourceTree = "<group>"; };
 		FA371B512BFE656900A56754 /* thy_cuzdan_qrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thy_cuzdan_qrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA371B5F2BFE65BA00A56754 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FA371B612BFE690E00A56754 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		FA371B692BFE707B00A56754 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpView.swift; path = ../SignUpView.swift; sourceTree = "<group>"; };
+		FA371B6B2BFE70B000A56754 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FA371B6D2BFE70D600A56754 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FA371B712BFE744400A56754 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		FA371B732BFE756F00A56754 /* PasswordResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetView.swift; sourceTree = "<group>"; };
+		FA371B752BFE76BE00A56754 /* TransactionHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHistoryView.swift; sourceTree = "<group>"; };
+		FA371B792BFE7C3600A56754 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		FA371B7B2BFE7EE800A56754 /* PaymentOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionsView.swift; sourceTree = "<group>"; };
+		FA371B7D2BFE8C6700A56754 /* QRCodeView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QRCodeView.swift .swift"; sourceTree = "<group>"; };
+		FA371B7F2BFE8CAC00A56754 /* OfflinePaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflinePaymentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,19 +117,22 @@
 			isa = PBXGroup;
 			children = (
 				FA371B342BFE656700A56754 /* thy_cuzdan_qrApp.swift */,
+				FA371B712BFE744400A56754 /* WalletView.swift */,
 				FA371B362BFE656700A56754 /* ContentView.swift */,
+				FA371B7D2BFE8C6700A56754 /* QRCodeView.swift .swift */,
+				FA371B692BFE707B00A56754 /* SignUpView.swift */,
+				FA371B792BFE7C3600A56754 /* MenuView.swift */,
+				FA371B732BFE756F00A56754 /* PasswordResetView.swift */,
+				FA371B5E2BFE65B900A56754 /* Model.xcdatamodeld */,
+				FA371B612BFE690E00A56754 /* Persistence.swift */,
 				FA371B382BFE656800A56754 /* Assets.xcassets */,
-				FA371B3A2BFE656800A56754 /* Preview Content */,
+				FA371B6B2BFE70B000A56754 /* LoginView.swift */,
+				FA371B6D2BFE70D600A56754 /* MainView.swift */,
+				FA371B752BFE76BE00A56754 /* TransactionHistoryView.swift */,
+				FA371B7B2BFE7EE800A56754 /* PaymentOptionsView.swift */,
+				FA371B7F2BFE8CAC00A56754 /* OfflinePaymentView.swift */,
 			);
 			path = "thy-cuzdan-qr";
-			sourceTree = "<group>";
-		};
-		FA371B3A2BFE656800A56754 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				FA371B3B2BFE656800A56754 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		FA371B442BFE656900A56754 /* thy-cuzdan-qrTests */ = {
@@ -231,8 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA371B3C2BFE656800A56754 /* Preview Assets.xcassets in Resources */,
-				FA371B392BFE656800A56754 /* Assets.xcassets in Resources */,
+				FA371B812BFE999900A56754 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +281,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA371B6C2BFE70B000A56754 /* LoginView.swift in Sources */,
+				FA371B7E2BFE8C6700A56754 /* QRCodeView.swift .swift in Sources */,
+				FA371B6E2BFE70D600A56754 /* MainView.swift in Sources */,
+				FA371B802BFE8CAC00A56754 /* OfflinePaymentView.swift in Sources */,
 				FA371B372BFE656700A56754 /* ContentView.swift in Sources */,
+				FA371B6A2BFE707B00A56754 /* SignUpView.swift in Sources */,
+				FA371B622BFE690E00A56754 /* Persistence.swift in Sources */,
 				FA371B352BFE656700A56754 /* thy_cuzdan_qrApp.swift in Sources */,
+				FA371B742BFE756F00A56754 /* PasswordResetView.swift in Sources */,
+				FA371B7A2BFE7C3600A56754 /* MenuView.swift in Sources */,
+				FA371B7C2BFE7EE800A56754 /* PaymentOptionsView.swift in Sources */,
+				FA371B602BFE65BA00A56754 /* Model.xcdatamodeld in Sources */,
+				FA371B762BFE76BE00A56754 /* TransactionHistoryView.swift in Sources */,
+				FA371B722BFE744400A56754 /* WalletView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"thy-cuzdan-qr/Preview Content\"";
@@ -448,6 +485,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"thy-cuzdan-qr/Preview Content\"";
@@ -588,6 +626,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA371B5E2BFE65B900A56754 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA371B5F2BFE65BA00A56754 /* Model.xcdatamodel */,
+			);
+			currentVersion = FA371B5F2BFE65BA00A56754 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = "/Users/macbook/Desktop/thy-cuzdan-qr/thy-cuzdan-qr/Model.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FA371B292BFE656700A56754 /* Project object */;
 }
