@@ -1,1 +1,8 @@
-
+![3](https://github.com/alpgurlee/thy-cuzdan-qr/assets/66573571/f21dfdcf-ecae-4a32-935f-fc387a7b56a9)
+![4](https://github.com/alpgurlee/thy-cuzdan-qr/assets/66573571/1df115f6-c7bb-4eea-a9a0-c136cfa29715)
+![5](https://github.com/alpgurlee/thy-cuzdan-qr/assets/66573571/c808dc17-259e-47c8-a94c-48252ca0a854)
+![6](https://github.com/alpgurlee/thy-cuzdan-qr/assets/66573571/2697875a-b45e-4366-ac64-c9cd830bd428)
+![7](https://github.com/alpgurlee/thy-cuzdan-qr/assets/66573571/a61dcb57-1d98-4d46-a9c6-1a1714752c59)
+![8](https://github.com/alpgurlee/thy-cuzdan-qr/assets/66573571/b0ef1ea8-ad59-425c-8745-5dd4f00d2309)
+![9](https://github.com/alpgurlee/thy-cuzdan-qr/assets/66573571/bc0a5a00-172d-4b95-931d-61d66cb29592)
+![10](https://github.com/alpgurlee/thy-cuzdan-qr/assets/66573571/bd926a80-1e8f-4144-bae5-c88743289386)
